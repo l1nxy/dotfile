@@ -2,10 +2,10 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/linxy/.oh-my-zsh"
+export ZSH="/home/linxy/.oh-my-zsh"
 # export PATH=/usr/local/opt/llvm/bin:/usr/local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
-export PATH="/usr/local/opt/python@3.8/libexec/bin:/usr/local/opt/node@12/bin:$PATH"
+#export PATH=/usr/local/bin:$PATH
+#export PATH="/usr/local/opt/python@3.8/libexec/bin:/usr/local/opt/node@12/bin:$PATH"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -109,8 +109,9 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 # export PATH="/Users/linxy/soft/vimr:/usr/local/opt/python/libexec/bin:$PATH"
-export PATH="/usr/local/opt/llvm/bin:/Users/linxy/soft/vimr:$PATH"
-eval "$(starship init zsh)"
+#export PATH="/usr/local/opt/llvm/bin:/Users/linxy/soft/vimr:$PATH"
 export GOPATH=$HOME/go
 export GOBIN=$HOME/go/bin
 
+export RUSTUP_DIST_SERVER=https://mirrors.tuna.tsinghua.edu.cn/rustup
+export PATH=~/.node_global/bin:$PATH
