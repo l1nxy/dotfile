@@ -57,7 +57,7 @@ bindsym XF86MonBrightnessDown exec "xbacklight -dec 10; notify-send 'brightness 
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
-bindsym $mod+F2 exec vivaldi-stable
+bindsym $mod+F2 exec vivaldi-stable --password-store=gnome
 bindsym $mod+F3 exec pcmanfm
 #bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
